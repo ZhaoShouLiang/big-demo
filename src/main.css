@@ -28,6 +28,7 @@
    flex-grow: 1;
    background-color: deeppink;
    overflow-y: scroll;
+   display: flex;
  }
  .nav-footer{
    height: 80px;
@@ -79,6 +80,30 @@
    background-color: rgba(0, 0, 0, 0.2);
    text-decoration: none;
   }
- 
- 
-
+  .home-container{
+    background-image: url(./images/home-bg.jpg);
+    background-position: 50% 50%;
+    width: 100%;
+    display: flex;
+  }
+  .home-cover{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+  }
+  .home-item{
+    color:#fff;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .home-btn{
+    border: none;
+    border-radius: 2px;
+    background-color: #ff4081;
+    padding:8px 20px;
+    font-size: 16px;
+  }
+  .home-btn:hover{
+    background-color: #00bcd4;
+  }
