@@ -23,7 +23,16 @@ function getJson(){
       });
 }
 
-
+function getJson1(){
+  let address = `https://raw.githubusercontent.com/ZhaoShouLiang/demodate/master/card.json?${Math.random()}`
+  return axios.get(address)
+    .then((res) => ({
+          getJson1:res.data
+       }))
+      .catch(function (error){
+        alert(error);
+      });
+}
 function getMd(add) {
    let address = `https://raw.githubusercontent.com/Newming/demodata/master/blog/${add}.md`;
    return axios.get(address)
@@ -35,4 +44,4 @@ function getMd(add) {
      });
  }
 
-export { searchGit , getJson, getMd };
+export { searchGit, getJson, getJson1, getMd };
