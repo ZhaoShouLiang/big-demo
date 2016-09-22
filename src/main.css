@@ -26,7 +26,7 @@
  }
  .content-main{
    flex-grow: 1;
-   background-color: deeppink;
+
    overflow-y: scroll;
    display: flex;
  }
@@ -84,6 +84,7 @@
     background-image: url(./images/home-bg.jpg);
     background-position: 50% 50%;
     width: 100%;
+    height: 100vh;
     display: flex;
   }
   .home-cover{
@@ -107,3 +108,17 @@
   .home-btn:hover{
     background-color: #00bcd4;
   }
+  .blog-btn{
+  -webkit-transition: all 450ms ease;
+  transition: all 450ms ease;
+  background-color: #fff;
+  border: 1px solid #FF4081;
+  border-radius: 20px;
+  padding: 5px 20px;
+  color: #FF4081;
+  font-size: 14px;
+}
+.blog-btn:hover{
+  color:#fff;
+  background-color: #ff4081;
+}

@@ -6,6 +6,7 @@ import Home from './Home/Home';
 import Work from './Work/Work';
 import About from './About/About';
 import Blog from './Blog/Blog';
+import Item from './Item/Item'
 
 export default class Routers extends React.Component{
 	render(){
@@ -16,9 +17,10 @@ export default class Routers extends React.Component{
 					<Route path ="/blog" component={Blog} />
 					<Route path ="/work" component={Work} />
 					<Route path ="/about" component={About} />
+					<Route path ="/item/:url" component={Item} />
 				</Route>
 			</Router>
 		)
-		
+
 	}
 }
