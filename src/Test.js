@@ -17,6 +17,6 @@ class Test extends React.Component {
   }
 }
 Test.childContextTypes = {
-  color: React.PropTypes.string
+  color: React.PropTypes.string.isRequired
 };
 export default Test;

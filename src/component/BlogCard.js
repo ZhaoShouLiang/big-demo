@@ -61,9 +61,9 @@ BlogCard.defaultProps={
    title:'这里是标题',
    desc:'这里是介绍'
  }
- BlogCard.propTypes = {
+BlogCard.propTypes = {
    index: PropTypes.number.isRequired,
    title: PropTypes.string.isRequired,
-   desc: PropTypes.string.isRequired
+   desc:  PropTypes.string.isRequired
  };
 export default BlogCard;

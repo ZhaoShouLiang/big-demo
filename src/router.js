@@ -6,7 +6,7 @@ import Home from './Home/Home';
 import Work from './Work/Work';
 import About from './About/About';
 import Blog from './Blog/Blog';
-import Item from './Item/Item'
+import Item from './Item/Item';
 
 export default class Routers extends React.Component{
 	render(){

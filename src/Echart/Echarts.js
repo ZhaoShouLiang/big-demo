@@ -13,7 +13,7 @@ class Echart extends React.Component {
     		title: { text: '我的技能' },
     		tooltip: {},
     		xAxis: {
-        	data: ["挖掘机","挖掘机","挖掘机","挖掘机","挖掘机","挖掘机"]
+        	data: ["HTML","CSS","JQUERY","REACT","NODE","JS"]
     		},
    	 		yAxis: {},
     		series: [{
@@ -25,23 +25,20 @@ class Echart extends React.Component {
 		myChart.setOption(option);
 
 
-		
+
 	}
  render () {
-    
+
     return(
     	<div>
-            <div>
 
-            </div>
-    		<div id="main1" style={{width:"600px",height:"600px"}}></div>
-    		
+    		<div id="main1" style={{width:"600px",height:"600px",textAlign:'center',display:'block',margin:'0 auto'}}></div>
+
     	</div>
-      
+
     )
   }
 }
 
 
 export default Echart ;
-
