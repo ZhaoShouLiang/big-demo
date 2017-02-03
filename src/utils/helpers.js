@@ -34,7 +34,7 @@ function getJson1(){
       });
 }
 function getMd(add) {
-   let address = `https://raw.githubusercontent.com/Newming/demodata/master/blog/${add}.md`;
+   let address = `https://raw.githubusercontent.com/ZhaoShouLiang/big-demo/master/src/data/${add}.md`;
    return axios.get(address)
      .then( (res) => (
        { getMd:res.data }
